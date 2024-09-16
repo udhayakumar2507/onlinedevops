@@ -1,2 +1,11 @@
-Welcome to HDFC #line 1 of code
-HDFC payment module 1 #Line 2 of code
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-app
+  labels:
+    app: my-app-1
+    tier: front-end
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx
